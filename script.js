@@ -57,7 +57,7 @@ enter.addEventListener('click', ()=> {
             eliminado: false
         })
     }
-    localStorage.setItem('toDo', JSON.stringify(LIST))
+    localStorage.setItem('TODO', JSON.stringify(LIST))
     input.value=''
     id++;
 })
